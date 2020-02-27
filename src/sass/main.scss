@@ -1,0 +1,29 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'normalize.scss';
+@import 'base.scss';
+@import 'vars.scss';
+
+// header
+@import './components/top-header.scss';
+@import './components/main-header.scss';
+
+// banner
+@import './components/banner.scss';
+
+// about-list
+@import './components/about-list.scss';
+
+// titles
+@import './components/titles.scss';
+
+// featured-products
+@import './components/product-cards.scss';
+
+// news
+@import './components/blog.scss';
+
+// footer
+@import './components/footer.scss';

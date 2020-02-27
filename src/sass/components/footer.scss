@@ -1,0 +1,72 @@
+.newsletter {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 460px;
+  background-image: url(../images/icons/bg2decor-full.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #4dc5ab;
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 16px;
+
+  &::after {
+    display: block;
+    content: '';
+    background-image: url(../images/icons/ftr-underline.png);
+    background-repeat: no-repeat;
+    margin-top: 26px;
+  }
+}
+
+.text-footer {
+  margin: 0;
+  font-family: $font;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.enter-email input {
+  font-family: $font;
+  color: $text-color;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  font-weight: 300;
+  width: 450px;
+  height: 58px;
+}
+
+.footer-mail {
+  display: flex;
+  justify-content: center;
+}
+
+.mail-btn {
+  border: 2px solid #fff;
+  border-radius: 0px 5px 5px 0px;
+  width: 92px;
+  height: 58px;
+  background-color: $accent-color;
+  background-image: url(../images/icons/input.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $secondarry-accent-color;
+  }
+}
+
+.footer {
+  padding-bottom: 136px;
+}

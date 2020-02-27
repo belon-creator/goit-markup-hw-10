@@ -1,0 +1,70 @@
+.banner {
+  height: 600px;
+  content: '';
+  background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)),
+    url(../images/slide4.png);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+}
+
+@media screen and (min-resolution: 2dppx) {
+  .banner {
+    background-image: url(../images/slide4-2x.png);
+  }
+}
+
+.banner-span {
+  font-weight: 700;
+  color: #4ec6ab;
+}
+
+.banner-description,
+.banner-description-bold {
+  margin: 0;
+  top: 140px;
+  left: 50%;
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #fff;
+  font-family: $font;
+  text-align: center;
+}
+
+.banner-description {
+  width: 100%;
+  font-weight: 300;
+
+  &--bold {
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    top: 50px;
+    margin-bottom: 18px;
+  }
+}
+
+.active-btn {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 12px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  background-color: $accent-color;
+  font-family: $font;
+  font-weight: 300;
+  color: #fff;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+
+  &:hover,
+  &:focus {
+    color: $text-color;
+  }
+}

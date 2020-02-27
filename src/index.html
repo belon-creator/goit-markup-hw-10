@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>hw-10</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,500,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Сюда будет всталена ссылка на файл стилей -->
+    <!-- inject:css -->
+    <!-- endinject -->
+  </head>
+
+  <body>
+    <header class="top-hdr">
+      <div class="container">
+        <div class="top-hdr__container">
+          <ul class="top-header__list ">
+            <li class="top-header__list-item">
+              <svg class="top-hdr-icon">
+                <use href="./images/icons/sprites.svg#phone"></use>
+              </svg>
+              <a
+                class="top-header__link--phone top-header__link"
+                href="tel:+380639480163"
+                >123-123456789</a
+              >
+            </li>
+            <li class="top-header__list-item">
+              <svg class="top-hdr-icon">
+                <use href="./images/icons/sprites.svg#mail"></use>
+              </svg>
+              <a
+                class="top-header__link--mail top-header__link"
+                href="mailto:belon8911@gmail.com"
+                >info@tntcom</a
+              >
+            </li>
+          </ul>
+
+          <ul class="top-header__list">
+            <li class="top-header__list-item">
+              <a href="#" class="top-header__link">My account</a>
+            </li>
+            <li class="top-header__list-item">
+              <a href="#" class="top-header__link">Whishlist </a>
+            </li>
+            <li class="top-header__list-item">
+              <a href="#" class="top-header__link">Cart</a>
+            </li>
+            <li class="top-header__list-item">
+              <a href="#" class="top-header__link">Checkout</a>
+            </li>
+            <li class="top-header__list-item">
+              <a href="#" class="top-header__link">Login/Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- header -->
+    <header class="main-header">
+      <div class="container">
+        <nav class="navigation">
+          <h1 class="logo">
+            <a class="logo-link" href="#">Mart</a>
+          </h1>
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Home</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">About us</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Page</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Shop</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Blog</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- content -->
+      <div class="banner">
+        <h2 class="banner-description">
+          Dresses<span class="banner-span">&#38;</span>jeans
+          <span class="banner-description--bold"
+            >from our famous brands
+            <span class="banner-span pulse">sale</span></span
+          >
+        </h2>
+        <a class="active-btn" href="#">Buy now</a>
+      </div>
+
+      <section class="about">
+        <div class="container">
+          <ul class="about-list">
+            <li class="about__list-item--setting about__list-item">
+              <svg class="about-icon">
+                <use href="./images/icons/sprites.svg#settings"></use>
+              </svg>
+              <h3 class="about__header">Setting</h3>
+              <p class="about__txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam quos quia, itaque vitae non pariatur dolores aut
+                facere cumque molestiae?
+              </p>
+            </li>
+            <li class="about__list-item--money about__list-item">
+              <svg class="about-icon">
+                <use href="./images/icons/sprites.svg#safe-box"></use>
+              </svg>
+              <h3 class="about__header">Money back</h3>
+              <p class="about__txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci temporibus laudantium labore voluptas ratione
+                perferendis aliquid! Illo delectus repellendus inventore?
+              </p>
+            </li>
+            <li class="about__list-item--global about__list-item">
+              <svg class="about-icon">
+                <use href="./images/icons/sprites.svg#world"></use>
+              </svg>
+              <h3 class="about__header">Worldwide shipping</h3>
+              <p class="about__txt">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                quo reprehenderit eaque minus enim. Id et recusandae inventore
+                quo qui!
+              </p>
+            </li>
+            <li class="about__list-item--compass about__list-item">
+              <svg class="about-icon">
+                <use href="./images/icons/sprites.svg#explore"></use>
+              </svg>
+              <h3 class="about__header">Worldwide shipping</h3>
+              <p class="about__txt">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                quo reprehenderit eaque minus enim. Id et recusandae inventore
+                quo qui!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- new collection -->
+
+      <section class="new-collection">
+        <h2 class="header-section">New collection</h2>
+
+        <div class="container">
+          <ul class="product-list">
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <img
+                srcset="./images/category-2(2).png 2x"
+                src="./images/category-2.png"
+                alt="img"
+                width="255"
+                height="280"
+              />
+              <a class="description-link" href="#">
+                <span class="product-name">Blue tshirt</span>
+                <span class="price">$26</span>
+              </a>
+            </li>
+
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <img
+                srcset="./images/category-1(2).png 2x"
+                src="./images/category-1.png"
+                alt="img"
+                width="255"
+                height="280"
+              />
+              <a class="description-link" href="#"
+                ><span class="product-name">Woman shirt</span>
+                <span class="price">$26</span></a
+              >
+            </li>
+
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <img
+                srcset="./images/category-4(2).png 2x"
+                src="./images/category-4.png"
+                alt="img"
+                width="255"
+                height="280"
+              />
+              <a class="description-link" href="#">
+                <span class="product-name">Yellow tshirt</span>
+                <span class="price">$21</span>
+              </a>
+            </li>
+
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <img
+                srcset="./images/category-3(2).png 2x"
+                src="./images/category-3.png"
+                alt="img"
+                width="255"
+                height="280"
+              />
+              <a class="description-link" href="#">
+                <p class="product-name">Cool lingerie</p>
+                <span class="price">$56</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="content featured-products">
+        <h2 class="header-section">Featured products</h2>
+
+        <div class="container">
+          <ul class="product-list">
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <div class="product-wrapper">
+                <img
+                  srcset="./images/product1.png 2x"
+                  src="./images/product1small.png"
+                  alt="img"
+                />
+              </div>
+              <a class="description-link" href="#">
+                <span class="product-name">Blue tshirt</span>
+                <span class="price">$26</span>
+              </a>
+            </li>
+
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <div class="product-wrapper">
+                <img
+                  srcset="./images/product2.png 2x"
+                  src="./images/product2small.png"
+                  alt="img"
+                />
+              </div>
+              <a class="description-link" href="#"
+                ><span class="product-name">Woman shirt</span>
+                <span class="price">$26</span></a
+              >
+            </li>
+
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <div class="product-wrapper">
+                <img
+                  srcset="./images/product9.png 2x"
+                  src="./images/product9small.png"
+                  alt="img"
+                />
+              </div>
+              <a class="description-link" href="#">
+                <span class="product-name">Yellow tshirt</span>
+                <span class="price">$21</span>
+              </a>
+            </li>
+
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <div class="product-wrapper">
+                <img
+                  srcset="./images/product4.png 2x"
+                  src="./images/product4small.png"
+                  alt="img"
+                />
+              </div>
+              <a class="description-link" href="#">
+                <p class="product-name">Cool lingerie</p>
+                <span class="price">$56</span>
+              </a>
+            </li>
+
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <div class="product-wrapper">
+                <img
+                  srcset="./images/product3.png 2x"
+                  src="./images/product3small.png"
+                  alt="img"
+                />
+              </div>
+              <a class="description-link" href="#">
+                <span class="product-name">Blue tshirt</span>
+                <span class="price">$21</span>
+              </a>
+            </li>
+
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <div class="product-wrapper">
+                <img
+                  srcset="./images/product5.png 2x"
+                  src="./images/product5small.png"
+                  alt="img"
+                />
+              </div>
+              <a class="description-link" href="#">
+                <span class="product-name">Woman shirt</span>
+                <span class="price">$31</span>
+              </a>
+            </li>
+
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <div class="product-wrapper">
+                <img
+                  srcset="./images/product6.png 2x"
+                  src="./images/product6small.png"
+                  alt="img"
+                />
+              </div>
+              <a class="description-link" href="#">
+                <span class="product-name">Yellow tshirt</span>
+                <span class="price">$21</span></a
+              >
+            </li>
+
+            <li class="product-list__item">
+              <!-- hover -->
+              <ul class="img-hover">
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--like img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#heart"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--share img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#transfer"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--clock img-hover__button"
+                  >
+                    <svg class="card-icon">
+                      <use href="./images/icons/sprites.svg#clock"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="img-hover__list">
+                  <button
+                    type="button"
+                    class="img-hover__button--add img-hover__button"
+                  >
+                    <svg class="card-icon card-icon__add">
+                      <use href="./images/icons/sprites.svg#cart"></use>
+                    </svg>
+                    <span class="img-hover__text">Add to cart</span>
+                  </button>
+                </li>
+              </ul>
+              <div class="product-wrapper">
+                <img
+                  srcset="./images/product8.png 2x"
+                  src="./images/product8small.png"
+                  alt="img"
+                />
+              </div>
+              <a class="description-link" href="#">
+                <span class="product-name">Cool lingerie</span>
+                <span class="price">$56</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- news -->
+
+      <section class="content new-collection">
+        <h2 class="header-section">Latest news</h2>
+        <div class="container">
+          <ul class="news-list">
+            <li class="news__list-item">
+              <img
+                srcset="./images/ipad-632394_960_720.png 2x"
+                src="./images/homework-04-8.jpg"
+                alt="img"
+                width="350"
+              />
+              <h3 class="news-list__header">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Facilis, ipsum!
+              </h3>
+              <p class="news-list__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores aliquam earum pariatur commodi cupiditate illum
+                architecto explicabo exercitationem consequuntur culpa.
+                Reiciendis neque nostrum mollitia exercitationem velit eveniet,
+                ab harum ut.
+              </p>
+              <a class="news-list__link" href="#">Read More</a>
+            </li>
+
+            <li class="news__list-item">
+              <img
+                srcset="./images/slide1.png 2x"
+                src="./images/homework-04-9.jpg"
+                alt="img"
+                width="350"
+              />
+              <h3 class="news-list__header">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Facilis, ipsum!
+              </h3>
+              <p class="news-list__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores aliquam earum pariatur commodi cupiditate illum
+                architecto explicabo exercitationem consequuntur culpa.
+                Reiciendis neque nostrum mollitia exercitationem velit eveniet,
+                ab harum ut.
+              </p>
+              <a class="news-list__link" href="#">Read More </a>
+            </li>
+
+            <li class="news__list-item">
+              <img
+                srcset="./images/product-img-5.png 2x"
+                src="./images/homework-04-10.jpg"
+                alt="img"
+                width="350"
+              />
+              <h3 class="news-list__header">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Facilis, ipsum!
+              </h3>
+              <p class="news-list__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores aliquam earum pariatur commodi cupiditate illum
+                architecto explicabo exercitationem consequuntur culpa.
+                Reiciendis neque nostrum mollitia exercitationem velit eveniet,
+                ab harum ut.
+              </p>
+              <a class="news-list__link" href="#">Read More </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="newsletter new-collection">
+        <h2 class="header-section title">
+          Newsletter
+        </h2>
+        <div class="container">
+          <div class="footer">
+            <p class="text-footer">
+              Follow a collection of news &#38; promotions
+            </p>
+            <form class="footer-mail">
+              <label class="enter-email"
+                ><input type="email" placeholder="Enter your email here"
+              /></label>
+
+              <button type="button" class="mail-btn"></button>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Сюда будет всталена ссылка на файл скриптов -->
+    <!-- inject:js -->
+    <!-- endinject -->
+  </body>
+</html>

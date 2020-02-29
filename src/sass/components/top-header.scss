@@ -23,7 +23,7 @@
 .top-header__link {
   display: block;
   text-decoration: none;
-  color: #fefefe;
+  color: $white-color;
   font-family: $font;
   font-weight: 300;
   padding-right: 15px;
@@ -47,5 +47,5 @@
 .top-hdr-icon {
   width: 18px;
   height: 18px;
-  fill: #fff;
+  fill: $white-color;
 }

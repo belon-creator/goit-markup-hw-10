@@ -1,7 +1,7 @@
 .product-wrapper {
   width: 255px;
   height: 280px;
-  background-color: #e9effd;
+  background-color: $background-color;
 }
 
 .product-wrapper img {
@@ -20,7 +20,7 @@
   right: 10px;
   width: 234px;
   height: 260px;
-  background-color: rgba(0, 0, 0, 0.53);
+  background-color: $bg-card-hover;
   opacity: 0;
   transform: translateY(100%);
   transition-duration: 250ms;
@@ -42,10 +42,10 @@
 
 .img-hover__button {
   position: relative;
-  border: 1px solid #fff;
+  border: 1px solid $white-color;
   width: 50px;
   height: 50px;
-  background-color: rgba(26, 188, 156, 0);
+  background-color: $bg-card-hover;
   margin-right: 8px;
   margin-top: 78px;
   cursor: pointer;
@@ -69,7 +69,7 @@
   height: 26px;
   margin-right: auto;
   margin-left: auto;
-  fill: #fff;
+  fill: $white-color;
 
   &__add {
     margin-left: 10px;
@@ -78,7 +78,7 @@
 
 .img-hover__button--add {
   position: relative;
-  background-color: #323232;
+  background-color: $color-for-hover;
   width: 164px;
   top: -68px;
 }
@@ -90,7 +90,7 @@
   background-position: center;
   top: 20px;
   left: 50px;
-  color: #fff;
+  color: $white-color;
   text-transform: uppercase;
   font-weight: 300;
   font-family: $font;
@@ -175,7 +175,7 @@
   text-align: center;
   display: inline-block;
   width: 55px;
-  background-color: #8c8c8c;
+  background-color: $bg-for-card;
 }
 
 .product-name,
@@ -185,5 +185,5 @@
   text-transform: uppercase;
   font-family: $font;
   font-weight: 900;
-  color: #fff;
+  color: $white-color;
 }
